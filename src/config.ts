@@ -3,7 +3,19 @@
 
 export const BASE = {
   "title": "Astrolus",
-  "desc": "A minimal, responsive and SEO-friendly Astro blog theme."
+  "desc": "A minimal, responsive and SEO-friendly Astro blog theme.",
+  "Link Fixed Href": "https://www.example.com",
+  "Link Fixed Content": "Get Started Now",
+  "Link Github": "https://www.github.com/account/repository",
+  "Link Twitter": "https://www.twitter.com/account",
+  "Link YouTube": "https://www.youtube.com/@account",
+  "Link Facebook": "https://www.facebook.com/account",
+  "Link Medium": "https://www.medium.com/blog",
+  "Link Pinterest": "https://www.pinterest.com/account",
+  "Link Patreon": "https://www.patreon.com/account",
+  "Link Instagram": "https://www.instagram.com/account",
+  "Mission Statement": "We change the way UI components librairies are used",
+  "Copyright Owner": "Tailus Blocks",
 };
 export const HOME = {
   "TEXT": {
@@ -50,19 +62,59 @@ export const HOME = {
     "Testimonial 5 Text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto laboriosam deleniti aperiam ab veniam sint non cumque quis tempore cupiditate. Sint libero voluptas veniam at reprehenderit, veritatis harum et rerum.",
     "Testimonial 6 Name": "Yanndy Doe",
     "Testimonial 6 Subtitle": "Mobile dev",
-    "Testimonial 6 Text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto laboriosam deleniti aperiam ab veniam sint non cumque quis tempore cupiditate. Sint libero voluptas veniam at reprehenderit, veritatis harum et rerum."
+    "Testimonial 6 Text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto laboriosam deleniti aperiam ab veniam sint non cumque quis tempore cupiditate. Sint libero voluptas veniam at reprehenderit, veritatis harum et rerum.",
+    "Call to Action Title": "Get Started now",
+    "Call to Action Text": "Be part of millions people around the world using tailus in modern User Interfaces.",
+    "Blog Title": "Latest Articles",
+    "Blog Text": "Quam hic dolore cumque voluptate rerum beatae et quae, tempore sunt, debitis dolorum officia aliquid explicabo? Excepturi, voluptate?",
   },
   "LINKS": {
     "Link Primary": { 
-      "href":"https://www.example.com",
+      "href": "https://www.example.com",
       "content": "Get started"
     }, 
     "Link Secondary": { 
       "href": "https://www.example.com",
       "content": "Learn more"
-    }
+    },
+    "Link Fixed": { 
+      "href": "https://www.example.com",
+      "content": ""
+    },
+    "Call to Action Link Primary": { 
+      "href": "https://www.example.com",
+      "content": "Get Started"
+    }, 
+    "Call to Action Link Secondary": { 
+      "href": "https://www.example.com",
+      "content": "More about"
+    },
   },
   "IMAGES": {
+    "Client 1":{
+      "Src": "https://astrolus.netlify.app/images/clients/microsoft.svg",
+      "Alt": "microsoft"
+    }, 
+    "Client 2":{
+      "Src": "https://astrolus.netlify.app/images/clients/airbnb.svg",
+      "Alt": "airbnb"
+    }, 
+    "Client 3":{
+      "Src": "https://astrolus.netlify.app/images/clients/google.svg",
+      "Alt": "google"
+    }, 
+    "Client 4":{
+      "Src": "https://astrolus.netlify.app/images/clients/ge.svg",
+      "Alt": "ge"
+    }, 
+    "Client 5":{
+      "Src": "https://astrolus.netlify.app/images/clients/netflix.svg",
+      "Alt": "netflix"
+    }, 
+    "Client 6":{
+      "Src": "https://astrolus.netlify.app/images/clients/google-cloud.svg",
+      "Alt": "google cloud"
+    }, 
     "Testimonial 1 Avatar":{
       "Src": "https://astrolus.netlify.app/images/avatars/avatar.webp",
       "Alt": "user avatar"
