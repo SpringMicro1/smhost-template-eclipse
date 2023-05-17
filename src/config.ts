@@ -92,52 +92,52 @@ export const HOME = {
   },
   "IMAGES": {
     "Client 1":{
-      "Src": "https://astrolus.netlify.app/images/clients/microsoft.svg",
-      "Alt": "microsoft"
+      "src": "https://astrolus.netlify.app/images/clients/microsoft.svg",
+      "alt": "microsoft"
     }, 
     "Client 2":{
-      "Src": "https://astrolus.netlify.app/images/clients/airbnb.svg",
-      "Alt": "airbnb"
+      "src": "https://astrolus.netlify.app/images/clients/airbnb.svg",
+      "alt": "airbnb"
     }, 
     "Client 3":{
-      "Src": "https://astrolus.netlify.app/images/clients/google.svg",
-      "Alt": "google"
+      "src": "https://astrolus.netlify.app/images/clients/google.svg",
+      "alt": "google"
     }, 
     "Client 4":{
-      "Src": "https://astrolus.netlify.app/images/clients/ge.svg",
-      "Alt": "ge"
+      "src": "https://astrolus.netlify.app/images/clients/ge.svg",
+      "alt": "ge"
     }, 
     "Client 5":{
-      "Src": "https://astrolus.netlify.app/images/clients/netflix.svg",
-      "Alt": "netflix"
+      "src": "https://astrolus.netlify.app/images/clients/netflix.svg",
+      "alt": "netflix"
     }, 
     "Client 6":{
-      "Src": "https://astrolus.netlify.app/images/clients/google-cloud.svg",
-      "Alt": "google cloud"
+      "src": "https://astrolus.netlify.app/images/clients/google-cloud.svg",
+      "alt": "google cloud"
     }, 
     "Testimonial 1 Avatar":{
-      "Src": "https://astrolus.netlify.app/images/avatars/avatar.webp",
-      "Alt": "user avatar"
+      "src": "https://astrolus.netlify.app/images/avatars/avatar.webp",
+      "alt": "user avatar"
     }, 
     "Testimonial 2 Avatar":{
-      "Src": "https://astrolus.netlify.app/images/avatars/avatar-1.webp",
-      "Alt": "user avatar"
+      "src": "https://astrolus.netlify.app/images/avatars/avatar-1.webp",
+      "alt": "user avatar"
     }, 
     "Testimonial 3 Avatar":{
-      "Src": "https://astrolus.netlify.app/images/avatars/avatar-2.webp",
-      "Alt": "user avatar"
+      "src": "https://astrolus.netlify.app/images/avatars/avatar-2.webp",
+      "alt": "user avatar"
     }, 
     "Testimonial 4 Avatar":{
-      "Src": "https://astrolus.netlify.app/images/avatars/avatar-3.webp",
-      "Alt": "user avatar"
+      "src": "https://astrolus.netlify.app/images/avatars/avatar-3.webp",
+      "alt": "user avatar"
     }, 
     "Testimonial 5 Avatar":{
-      "Src": "https://astrolus.netlify.app/images/avatars/avatar-4.webp",
-      "Alt": "user avatar"
+      "src": "https://astrolus.netlify.app/images/avatars/avatar-4.webp",
+      "alt": "user avatar"
     }, 
     "Testimonial 6 Avatar":{
-      "Src": "https://astrolus.netlify.app/images/avatars/avatar-2.webp",
-      "Alt": "user avatar"
+      "src": "https://astrolus.netlify.app/images/avatars/avatar-2.webp",
+      "alt": "user avatar"
     }
   }
 };
