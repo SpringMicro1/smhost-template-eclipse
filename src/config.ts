@@ -2,142 +2,142 @@
 // You can import this data from anywhere in your site by using the `import` keyword.
 
 export const BASE = {
-  "title": "Astrolus",
-  "desc": "A minimal, responsive and SEO-friendly Astro blog theme.",
-  "Link Fixed Href": "https://www.example.com",
-  "Link Fixed Content": "Get Started Now",
-  "Link Github": "https://www.github.com/account/repository",
-  "Link Twitter": "https://www.twitter.com/account",
-  "Link YouTube": "https://www.youtube.com/@account",
-  "Link Facebook": "https://www.facebook.com/account",
-  "Link Medium": "https://www.medium.com/blog",
-  "Link Pinterest": "https://www.pinterest.com/account",
-  "Link Patreon": "https://www.patreon.com/account",
-  "Link Instagram": "https://www.instagram.com/account",
-  "Mission Statement": "We change the way UI components librairies are used",
-  "Copyright Owner": "Tailus Blocks",
+  TITLE: "Astrolus",
+  DESC: "A minimal, responsive and SEO-friendly Astro blog theme.",
+  LINK_FIXED_HREF: "https://www.example.com",
+  LINK_FIXED_CONTENT: "Get Started Now",
+  LINK_GITHUB: "https://www.github.com/account/repository",
+  LINK_TWITTER: "https://www.twitter.com/account",
+  LINK_YOUTUBE: "https://www.youtube.com/@account",
+  LINK_FACEBOOK: "https://www.facebook.com/account",
+  LINK_MEDIUM: "https://www.medium.com/blog",
+  LINK_PINTEREST: "https://www.pinterest.com/account",
+  LINK_PATREON: "https://www.patreon.com/account",
+  LINK_INSTAGRAM: "https://www.instagram.com/account",
+  MISSION_STATEMENT: "We change the way UI components libraries are used",
+  COPYRIGHT_OWNER: "Tailus Blocks",
 };
 export const HOME = {
-  "TEXT": {
-    "Heading": "Shaping a world with reimagination.",
-    "Description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio incidunt nam itaque sed eius modi error totam sit illum. Voluptas doloribus asperiores quaerat aperiam. Quidem harum omnis beatae ipsum soluta!",
-    "Blurb 1  Title": "The lowest price",
-    "Blurb 1 Text": "Some text here",
-    "Blurb 2 Title": "The fastest on the market",
-    "Blurb 2 Text": "Some text here",
-    "Blurb 3 Title": "The most loved",
-    "Blurb 3 Text": "Some text here",
-    "Section 1 Title": "A technology-first approach to payments and finance",
-    "Section 1 Text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus ad ipsum pariatur autem, fugit laborum in atque amet obcaecati? Nisi minima aspernatur, quidem nulla cupiditate nam consequatur eligendi magni adipisci.",
-    "Feature 1 Title": "First feature",
-    "Feature 1 Text": "Neque Dolor, fugiat non cum doloribus aperiam voluptates nostrum.",
-    "Feature 2 Title": "Second feature",
-    "Feature 2 Text": "Neque Dolor, fugiat non cum doloribus aperiam voluptates nostrum.",
-    "Feature 3 Title": "Third feature",
-    "Feature 3 Text": "Neque Dolor, fugiat non cum doloribus aperiam voluptates nostrum.",
-    "Feature 4 Title": "More features",
-    "Feature 4 Text": "Neque Dolor, fugiat non cum doloribus aperiam voluptates nostrum.",
-    "Section 2 Title": "Nuxt development is carried out by passionate developers", 
-    "Section 2 Text P1":"Nobis minus voluptatibus pariatur dignissimos libero quaerat iure expedita at? Asperiores nemo possimus nesciunt dicta veniam aspernatur quam mollitia.",
-    "Section 2 Text P2":"Vitae error, quaerat officia delectus voluptatibus explicabo quo pariatur impedit, at reprehenderit aliquam a ipsum quas voluptatem.Quo pariatur asperiores eum amet.",
-    "Highlight 1 Title": "Chat Anytime",
-    "Highlight 1 Text": "Asperiores nemo possimus nesciunt quam mollitia.",
-    "Highlight 2 Title": "Real Time Location",
-    "Highlight 2 Text": "Asperiores nemo possimus nesciunt quam mollitia.",
-    "Testimonials Heading": "We have some fans.",
-    "Testimonial 1 Name": "Daniella Doe",
-    "Testimonial 1 Subtitle": "Mobile dev",
-    "Testimonial 1 Text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum aliquid quo eum quae quos illo earum ipsa doloribus nostrum minus libero aspernatur laborum cum, a suscipit, ratione ea totam ullam! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto laboriosam deleniti aperiam ab veniam sint non cumque quis tempore cupiditate. Sint libero voluptas veniam at reprehenderit, veritatis harum et rerum.",
-    "Testimonial 2 Name": "Yanick Doe",
-    "Testimonial 2 Subtitle": "Developer",
-    "Testimonial 2 Text": "Lorem ipsum dolor laboriosam deleniti aperiam ab veniam sint non cumque quis tempore cupiditate. Sint libero voluptas veniam at reprehenderit, veritatis harum et rerum.",
-    "Testimonial 3 Name": "Andy Doe",
-    "Testimonial 3 Subtitle": "Manager",
-    "Testimonial 3 Text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto laboriosam deleniti aperiam ab veniam sint non cumque quis tempore cupiditate. Sint libero voluptas veniam at reprehenderit, veritatis harum et rerum.",
-    "Testimonial 4 Name": "Jane doe",
-    "Testimonial 4 Subtitle": "Marketing",
-    "Testimonial 4 Text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto laboriosam deleniti aperiam ab veniam sint non cumque quis tempore cupiditate. Sint libero voluptas veniam at reprehenderit, veritatis harum et rerum.",
-    "Testimonial 5 Name": "Jane Doe",
-    "Testimonial 5 Subtitle": "Mobile dev",
-    "Testimonial 5 Text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto laboriosam deleniti aperiam ab veniam sint non cumque quis tempore cupiditate. Sint libero voluptas veniam at reprehenderit, veritatis harum et rerum.",
-    "Testimonial 6 Name": "Yanndy Doe",
-    "Testimonial 6 Subtitle": "Mobile dev",
-    "Testimonial 6 Text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto laboriosam deleniti aperiam ab veniam sint non cumque quis tempore cupiditate. Sint libero voluptas veniam at reprehenderit, veritatis harum et rerum.",
-    "Call to Action Title": "Get Started now",
-    "Call to Action Text": "Be part of millions people around the world using tailus in modern User Interfaces.",
-    "Blog Title": "Latest Articles",
-    "Blog Text": "Quam hic dolore cumque voluptate rerum beatae et quae, tempore sunt, debitis dolorum officia aliquid explicabo? Excepturi, voluptate?",
+  TEXT: {
+    HEADING: "Shaping a world with reimagination.",
+    DESCRIPTION: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio incidunt nam itaque sed eius modi error totam sit illum. Voluptas doloribus asperiores quaerat aperiam. Quidem harum omnis beatae ipsum soluta!",
+    BLURB_1_TITLE: "The lowest price",
+    BLURB_1_TEXT: "Some text here",
+    BLURB_2_TITLE: "The fastest on the market",
+    BLURB_2_TEXT: "Some text here",
+    BLURB_3_TITLE: "The most loved",
+    BLURB_3_TEXT: "Some text here",
+    SECTION_1_TITLE: "A technology-first approach to payments and finance",
+    SECTION_1_TEXT: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus ad ipsum pariatur autem, fugit laborum in atque amet obcaecati? Nisi minima aspernatur, quidem nulla cupiditate nam consequatur eligendi magni adipisci.",
+    FEATURE_1_TITLE: "First feature",
+    FEATURE_1_TEXT: "Neque Dolor, fugiat non cum doloribus aperiam voluptates nostrum.",
+    FEATURE_2_TITLE: "Second feature",
+    FEATURE_2_TEXT: "Neque Dolor, fugiat non cum doloribus aperiam voluptates nostrum.",
+    FEATURE_3_TITLE: "Third feature",
+    FEATURE_3_TEXT: "Neque Dolor, fugiat non cum doloribus aperiam voluptates nostrum.",
+    FEATURE_4_TITLE: "More features",
+    FEATURE_4_TEXT: "Neque Dolor, fugiat non cum doloribus aperiam voluptates nostrum.",
+    SECTION_2_TITLE: "Nuxt development is carried out by passionate developers", 
+    SECTION_2_TEXT_P1:"Nobis minus voluptatibus pariatur dignissimos libero quaerat iure expedita at? Asperiores nemo possimus nesciunt dicta veniam aspernatur quam mollitia.",
+    SECTION_2_TEXT_P2:"Vitae error, quaerat officia delectus voluptatibus explicabo quo pariatur impedit, at reprehenderit aliquam a ipsum quas voluptatem.Quo pariatur asperiores eum amet.",
+    HIGHLIGHT_1_TITLE: "Chat Anytime",
+    HIGHLIGHT_1_TEXT: "Asperiores nemo possimus nesciunt quam mollitia.",
+    HIGHLIGHT_2_TITLE: "Real Time Location",
+    HIGHLIGHT_2_TEXT: "Asperiores nemo possimus nesciunt quam mollitia.",
+    TESTIMONIALS_HEADING: "We have some fans.",
+    TESTIMONIAL_1_NAME: "Daniella Doe",
+    TESTIMONIAL_1_SUBTITLE: "Mobile dev",
+    TESTIMONIAL_1_TEXT: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum aliquid quo eum quae quos illo earum ipsa doloribus nostrum minus libero aspernatur laborum cum, a suscipit, ratione ea totam ullam! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto laboriosam deleniti aperiam ab veniam sint non cumque quis tempore cupiditate. Sint libero voluptas veniam at reprehenderit, veritatis harum et rerum.",
+    TESTIMONIAL_2_NAME: "Yanick Doe",
+    TESTIMONIAL_2_SUBTITLE: "Developer",
+    TESTIMONIAL_2_TEXT: "Lorem ipsum dolor laboriosam deleniti aperiam ab veniam sint non cumque quis tempore cupiditate. Sint libero voluptas veniam at reprehenderit, veritatis harum et rerum.",
+    TESTIMONIAL_3_NAME: "Andy Doe",
+    TESTIMONIAL_3_SUBTITLE: "Manager",
+    TESTIMONIAL_3_TEXT: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto laboriosam deleniti aperiam ab veniam sint non cumque quis tempore cupiditate. Sint libero voluptas veniam at reprehenderit, veritatis harum et rerum.",
+    TESTIMONIAL_4_NAME: "Jane doe",
+    TESTIMONIAL_4_SUBTITLE: "Marketing",
+    TESTIMONIAL_4_TEXT: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto laboriosam deleniti aperiam ab veniam sint non cumque quis tempore cupiditate. Sint libero voluptas veniam at reprehenderit, veritatis harum et rerum.",
+    TESTIMONIAL_5_NAME: "Jane Doe",
+    TESTIMONIAL_5_SUBTITLE: "Mobile dev",
+    TESTIMONIAL_5_TEXT: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto laboriosam deleniti aperiam ab veniam sint non cumque quis tempore cupiditate. Sint libero voluptas veniam at reprehenderit, veritatis harum et rerum.",
+    TESTIMONIAL_6_NAME: "Yanndy Doe",
+    TESTIMONIAL_6_SUBTITLE: "Mobile dev",
+    TESTIMONIAL_6_TEXT: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto laboriosam deleniti aperiam ab veniam sint non cumque quis tempore cupiditate. Sint libero voluptas veniam at reprehenderit, veritatis harum et rerum.",
+    CALL_TO_ACTION_TITLE: "Get Started now",
+    CALL_TO_ACTION_TEXT: "Be part of millions people around the world using tailus in modern User Interfaces.",
+    BLOG_TITLE: "Latest Articles",
+    BLOG_TEXT: "Quam hic dolore cumque voluptate rerum beatae et quae, tempore sunt, debitis dolorum officia aliquid explicabo? Excepturi, voluptate?",
   },
-  "LINKS": {
-    "Link Primary": { 
-      "href": "https://www.example.com",
-      "content": "Get started"
+  LINKS: {
+    LINK_PRIMARY: { 
+      href: "https://www.example.com",
+      content: "Get started"
     }, 
-    "Link Secondary": { 
-      "href": "https://www.example.com",
-      "content": "Learn more"
+    LINK_SECONDARY: { 
+      href: "https://www.example.com",
+      content: "Learn more"
     },
-    "Link Fixed": { 
-      "href": "https://www.example.com",
-      "content": ""
+    LINK_FIXED: { 
+      href: "https://www.example.com",
+      content: ""
     },
-    "Call to Action Link Primary": { 
-      "href": "https://www.example.com",
-      "content": "Get Started"
+    CALL_TO_ACTION_LINK_PRIMARY: { 
+      href: "https://www.example.com",
+      content: "Get Started"
     }, 
-    "Call to Action Link Secondary": { 
-      "href": "https://www.example.com",
-      "content": "More about"
+    CALL_TO_ACTION_LINK_SECONDARY: { 
+      href: "https://www.example.com",
+      content: "More about"
     },
   },
-  "IMAGES": {
-    "Client 1":{
-      "src": "https://astrolus.netlify.app/images/clients/microsoft.svg",
-      "alt": "microsoft"
+  IMAGES: {
+    CLIENT_1: {
+      src: "https://astrolus.netlify.app/images/clients/microsoft.svg",
+      alt: "microsoft"
     }, 
-    "Client 2":{
-      "src": "https://astrolus.netlify.app/images/clients/airbnb.svg",
-      "alt": "airbnb"
+    CLIENT_2: {
+      src: "https://astrolus.netlify.app/images/clients/airbnb.svg",
+      alt: "airbnb"
     }, 
-    "Client 3":{
-      "src": "https://astrolus.netlify.app/images/clients/google.svg",
-      "alt": "google"
+    CLIENT_3: {
+      src: "https://astrolus.netlify.app/images/clients/google.svg",
+      alt: "google"
     }, 
-    "Client 4":{
-      "src": "https://astrolus.netlify.app/images/clients/ge.svg",
-      "alt": "ge"
+    CLIENT_4: {
+      src: "https://astrolus.netlify.app/images/clients/ge.svg",
+      alt: "ge"
     }, 
-    "Client 5":{
-      "src": "https://astrolus.netlify.app/images/clients/netflix.svg",
-      "alt": "netflix"
+    CLIENT_5: {
+      src: "https://astrolus.netlify.app/images/clients/netflix.svg",
+      alt: "netflix"
     }, 
-    "Client 6":{
-      "src": "https://astrolus.netlify.app/images/clients/google-cloud.svg",
-      "alt": "google cloud"
+    CLIENT_6: {
+      src: "https://astrolus.netlify.app/images/clients/google-cloud.svg",
+      alt: "google cloud"
     }, 
-    "Testimonial 1 Avatar":{
-      "src": "https://astrolus.netlify.app/images/avatars/avatar.webp",
-      "alt": "user avatar"
+    TESTIMONIAL_1_AVATAR: {
+      src: "https://astrolus.netlify.app/images/avatars/avatar.webp",
+      alt: "user avatar"
     }, 
-    "Testimonial 2 Avatar":{
-      "src": "https://astrolus.netlify.app/images/avatars/avatar-1.webp",
-      "alt": "user avatar"
+    TESTIMONIAL_2_AVATAR: {
+      src: "https://astrolus.netlify.app/images/avatars/avatar-1.webp",
+      alt: "user avatar"
     }, 
-    "Testimonial 3 Avatar":{
-      "src": "https://astrolus.netlify.app/images/avatars/avatar-2.webp",
-      "alt": "user avatar"
+    TESTIMONIAL_3_AVATAR: {
+      src: "https://astrolus.netlify.app/images/avatars/avatar-2.webp",
+      alt: "user avatar"
     }, 
-    "Testimonial 4 Avatar":{
-      "src": "https://astrolus.netlify.app/images/avatars/avatar-3.webp",
-      "alt": "user avatar"
+    TESTIMONIAL_4_AVATAR: {
+      src: "https://astrolus.netlify.app/images/avatars/avatar-3.webp",
+      alt: "user avatar"
     }, 
-    "Testimonial 5 Avatar":{
-      "src": "https://astrolus.netlify.app/images/avatars/avatar-4.webp",
-      "alt": "user avatar"
+    TESTIMONIAL_5_AVATAR: {
+      src: "https://astrolus.netlify.app/images/avatars/avatar-4.webp",
+      alt: "user avatar"
     }, 
-    "Testimonial 6 Avatar":{
-      "src": "https://astrolus.netlify.app/images/avatars/avatar-2.webp",
-      "alt": "user avatar"
+    TESTIMONIAL_6_AVATAR: {
+      src: "https://astrolus.netlify.app/images/avatars/avatar-2.webp",
+      alt: "user avatar"
     }
   }
 };

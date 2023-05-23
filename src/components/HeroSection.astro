@@ -12,60 +12,60 @@ import { HOME } from "../config";
     <Container>
         <div class="relative pt-36 ml-auto">
             <div class="lg:w-2/3 text-center mx-auto">
-                <h1 class="text-gray-900 dark:text-white font-bold text-5xl md:text-6xl xl:text-7xl">{HOME.TEXT.Heading}</h1>
-                <p class="mt-8 text-gray-700 dark:text-gray-300">{HOME.TEXT.Description}</p>
+                <h1 class="text-gray-900 dark:text-white font-bold text-5xl md:text-6xl xl:text-7xl">{HOME.TEXT.HEADING}</h1>
+                <p class="mt-8 text-gray-700 dark:text-gray-300">{HOME.TEXT.DESCRIPTION}</p>
                 <div class="mt-16 flex flex-wrap justify-center gap-y-4 gap-x-6">
                     <a
-                      href={HOME.LINKS["Link Primary"].href}
+                      href={HOME.LINKS.LINK_PRIMARY.href}
                       class="relative flex h-11 w-full items-center justify-center px-6 before:absolute before:inset-0 before:rounded-full before:bg-primary before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max"
                     >
                       <span class="relative text-base font-semibold text-white"
-                        >{HOME.LINKS["Link Primary"].content}</span
+                        >{HOME.LINKS.LINK_PRIMARY.content}</span
                       >
                     </a>
                     <a
-                      href={HOME.LINKS["Link Secondary"].href}
+                      href={HOME.LINKS.LINK_SECONDARY.href}
                       class="relative flex h-11 w-full items-center justify-center px-6 before:absolute before:inset-0 before:rounded-full before:border before:border-transparent before:bg-primary/10 before:bg-gradient-to-b before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 dark:before:border-gray-700 dark:before:bg-gray-800 sm:w-max"
                     >
                       <span
                         class="relative text-base font-semibold text-primary dark:text-white"
-                        >{HOME.LINKS["Link Secondary"].content}</span
+                        >{HOME.LINKS.LINK_SECONDARY.content}</span
                       >
                     </a>
                 </div>
                 <div class="hidden py-8 mt-16 border-y border-gray-100 dark:border-gray-800 sm:flex justify-between">
                     <div class="text-left">
-                        <h6 class="text-lg font-semibold text-gray-700 dark:text-white">{HOME.TEXT["Blurb 1 Title"]}</h6>
-                        <p class="mt-2 text-gray-500">{HOME.TEXT["Blurb 1 Text"]}</p>
+                        <h6 class="text-lg font-semibold text-gray-700 dark:text-white">{HOME.TEXT.BLURB_1_TITLE}</h6>
+                        <p class="mt-2 text-gray-500">{HOME.TEXT.BLURB_1_TEXT}</p>
                     </div>
                     <div class="text-left">
-                        <h6 class="text-lg font-semibold text-gray-700 dark:text-white">{HOME.TEXT["Blurb 2 Title"]}</h6>
-                        <p class="mt-2 text-gray-500">{HOME.TEXT["Blurb 2 Text"]}</p>
+                        <h6 class="text-lg font-semibold text-gray-700 dark:text-white">{HOME.TEXT.BLURB_2_TITLE}</h6>
+                        <p class="mt-2 text-gray-500">{HOME.TEXT.BLURB_2_TEXT}</p>
                     </div>
                     <div class="text-left">
-                        <h6 class="text-lg font-semibold text-gray-700 dark:text-white">{HOME.TEXT["Blurb 3 Title"]}</h6>
-                        <p class="mt-2 text-gray-500">{HOME.TEXT["Blurb 3 Text"]}</p>
+                        <h6 class="text-lg font-semibold text-gray-700 dark:text-white">{HOME.TEXT.BLURB_3_TITLE}</h6>
+                        <p class="mt-2 text-gray-500">{HOME.TEXT.BLURB_3_TEXT}</p>
                     </div>
                 </div>
             </div>
             <div id="clients" class="mt-12 grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6">
                 <div class="p-4 grayscale transition duration-200 hover:grayscale-0">
-                  <img src={HOME.IMAGES["Client 1"].src} class="h-12 w-auto mx-auto" loading="lazy" alt={HOME.IMAGES["Client 1"].alt} width="" height="" />
+                  <img src={HOME.IMAGES.CLIENT_1.src} class="h-12 w-auto mx-auto" loading="lazy" alt={HOME.IMAGES.CLIENT_1.alt} width="" height="" />
                 </div>
                 <div class="p-4 grayscale transition duration-200 hover:grayscale-0">
-                  <img src={HOME.IMAGES["Client 2"].src} class="h-12 w-auto mx-auto" loading="lazy" alt={HOME.IMAGES["Client 2"].alt} width="" height="" />
+                  <img src={HOME.IMAGES.CLIENT_2.src} class="h-12 w-auto mx-auto" loading="lazy" alt={HOME.IMAGES.CLIENT_2.alt} width="" height="" />
                 </div>
                 <div class="p-4 grayscale transition duration-200 hover:grayscale-0">
-                  <img src={HOME.IMAGES["Client 3"].src} class="h-12 w-auto mx-auto" loading="lazy" alt={HOME.IMAGES["Client 3"].alt} width="" height="" />
+                  <img src={HOME.IMAGES.CLIENT_3.src} class="h-12 w-auto mx-auto" loading="lazy" alt={HOME.IMAGES.CLIENT_3.alt} width="" height="" />
                 </div>
                 <div class="p-4 grayscale transition duration-200 hover:grayscale-0">
-                  <img src={HOME.IMAGES["Client 4"].src} class="h-12 w-auto mx-auto" loading="lazy" alt={HOME.IMAGES["Client 4"].alt} width="" height="" />
+                  <img src={HOME.IMAGES.CLIENT_4.src} class="h-12 w-auto mx-auto" loading="lazy" alt={HOME.IMAGES.CLIENT_4.alt} width="" height="" />
                 </div>
                 <div class="p-4 grayscale transition duration-200 hover:grayscale-0">
-                  <img src={HOME.IMAGES["Client 5"].src} class="h-12 w-auto mx-auto" loading="lazy" alt={HOME.IMAGES["Client 5"].alt} width="" height="" />
+                  <img src={HOME.IMAGES.CLIENT_5.src} class="h-12 w-auto mx-auto" loading="lazy" alt={HOME.IMAGES.CLIENT_5.alt} width="" height="" />
                 </div>
                 <div class="p-4 grayscale transition duration-200 hover:grayscale-0">
-                  <img src={HOME.IMAGES["Client 6"].src} class="h-12 w-auto mx-auto" loading="lazy" alt={HOME.IMAGES["Client 6"].alt} width="" height="" />
+                  <img src={HOME.IMAGES.CLIENT_6.src} class="h-12 w-auto mx-auto" loading="lazy" alt={HOME.IMAGES.CLIENT_6.alt} width="" height="" />
                 </div>
               </div>
         </div>
