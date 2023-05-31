@@ -1,0 +1,36 @@
+---
+import Container from "./Container.astro"
+import { BASE, HOME } from "../config";
+import { Icon } from "astro-icon";
+import ContactForm from "./contactform.astro"
+
+---
+
+<div class="grid md:grid-cols-2 gap-10 mx-auto max-w-4xl mt-16" id="contact">
+    <div>
+        <h2 class="font-medium text-2xl text-gray-800">Contact {BASE.COMPANY_NAME}</h2>
+        <p class="text-lg leading-relaxed text-slate-500 mt-3">
+        {HOME.TEXT.CONTACT_PARAGRAPH}
+        </p>
+        <div class="mt-5">
+            <div class="flex items-center mt-2 space-x-2 text-gray-600">
+                <Icon class="text-gray-400 w-4 h-4" name="uil:map-marker" />
+                <span>{HOME.TEXT.ADDRESS}</span>
+            </div><div class="flex items-center mt-2 space-x-2 text-gray-600">
+                <Icon class="text-gray-400 w-4 h-4" name="uil:envelope" /><a
+                href={"mailto:" + HOME.LINKS.EMAIL.href}
+                >{HOME.LINKS.EMAIL.content}</a
+                >
+            </div><div class="flex items-center mt-2 space-x-2 text-gray-600">
+                <Icon class="text-gray-400 w-4 h-4" name="uil:phone" />
+                <a href={"tel:" + HOME.LINKS.PHONE.href}>
+                {HOME.LINKS.PHONE.href}
+                </a>
+            </div>
+        </div>
+    </div>
+    <div>
+        <ContactForm />
+    </div>
+    </div>
+</div>

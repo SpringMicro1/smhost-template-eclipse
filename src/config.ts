@@ -3,6 +3,7 @@
 
 export const BASE = {
   TITLE: "Astrolus",
+  COMPANY_NAME: "Astrolus",
   DESC: "A minimal, responsive and SEO-friendly Astro blog theme.",
   LINK_FIXED_HREF: "https://www.example.com",
   LINK_FIXED_CONTENT: "Get Started Now",
@@ -66,6 +67,9 @@ export const HOME = {
     CALL_TO_ACTION_TITLE: "Get Started now",
     CALL_TO_ACTION_TEXT: "Be part of millions people around the world using tailus in modern User Interfaces.",
     BLOG_TITLE: "Latest Articles",
+    CONTACT_TAGLINE: "Get in touch.",
+    CONTACT_PARAGRAPH: "Have something to say? We are here to help. Fill out the form, send an email, or call us on the phone.",
+    ADDRESS: "123 Example Street; My Place, NY 00000",
     BLOG_TEXT: "Quam hic dolore cumque voluptate rerum beatae et quae, tempore sunt, debitis dolorum officia aliquid explicabo? Excepturi, voluptate?",
   },
   LINKS: {
@@ -88,6 +92,14 @@ export const HOME = {
     CALL_TO_ACTION_LINK_SECONDARY: { 
       href: "https://www.example.com",
       content: "More about"
+    },
+    EMAIL: {
+      href: "me@example.com",
+      content: "me@example.com",
+    },
+    PHONE: {
+      href: "+12015555555",
+      content: "+1 (201) 555-5555",
     },
   },
   IMAGES: {
