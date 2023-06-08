@@ -19,7 +19,7 @@ const config = {
     LINK_PINTEREST: "https://www.pinterest.com/account",
     LINK_PATREON: "https://www.patreon.com/account",
     LINK_INSTAGRAM: "https://www.instagram.com/account",
-    MISSION_STATEMENT: "We change the way UI components libraries are used",
+    MISSION_STATEMENT: "Changing the world with our generic contributions.",
     COPYRIGHT_OWNER: "SpringMicroHost",
   },
   HOME: {
@@ -48,8 +48,7 @@ const config = {
       FEATURE_4_TITLE: "More features",
       FEATURE_4_TEXT:
         "Neque Dolor, fugiat non cum doloribus aperiam voluptates nostrum.",
-      SECTION_2_TITLE:
-        "Nuxt development is carried out by passionate developers",
+      SECTION_2_TITLE: "We'll help you with your generic needs.",
       SECTION_2_TEXT_P1:
         "Nobis minus voluptatibus pariatur dignissimos libero quaerat iure expedita at? Asperiores nemo possimus nesciunt dicta veniam aspernatur quam mollitia.",
       SECTION_2_TEXT_P2:
@@ -126,55 +125,64 @@ const config = {
     },
     IMAGES: {
       CLIENT_1: {
-        src: "https://astrolus.netlify.app/images/clients/microsoft.svg",
+        src: "https://smhost-template-eclipse.vercel.app/images/clients/microsoft.svg",
         alt: "microsoft",
       },
       CLIENT_2: {
-        src: "https://astrolus.netlify.app/images/clients/airbnb.svg",
+        src: "https://smhost-template-eclipse.vercel.app/images/clients/airbnb.svg",
         alt: "airbnb",
       },
       CLIENT_3: {
-        src: "https://astrolus.netlify.app/images/clients/google.svg",
+        src: "https://smhost-template-eclipse.vercel.app/images/clients/google.svg",
         alt: "google",
       },
       CLIENT_4: {
-        src: "https://astrolus.netlify.app/images/clients/ge.svg",
+        src: "https://smhost-template-eclipse.vercel.app/images/clients/ge.svg",
         alt: "ge",
       },
       CLIENT_5: {
-        src: "https://astrolus.netlify.app/images/clients/netflix.svg",
+        src: "https://smhost-template-eclipse.vercel.app/images/clients/netflix.svg",
         alt: "netflix",
       },
       CLIENT_6: {
-        src: "https://astrolus.netlify.app/images/clients/google-cloud.svg",
+        src: "https://smhost-template-eclipse.vercel.app/images/clients/google-cloud.svg",
         alt: "google cloud",
       },
       TESTIMONIAL_1_AVATAR: {
-        src: "https://astrolus.netlify.app/images/avatars/avatar.webp",
+        src: "https://images.unsplash.com/photo-1552374196-c4e7ffc6e126?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=200&h=200&q=80",
         alt: "user avatar",
       },
       TESTIMONIAL_2_AVATAR: {
-        src: "https://astrolus.netlify.app/images/avatars/avatar-1.webp",
+        src: "https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=200&h=200&q=80",
         alt: "user avatar",
       },
       TESTIMONIAL_3_AVATAR: {
-        src: "https://astrolus.netlify.app/images/avatars/avatar-2.webp",
+        src: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=200&h=200&q=80",
         alt: "user avatar",
       },
       TESTIMONIAL_4_AVATAR: {
-        src: "https://astrolus.netlify.app/images/avatars/avatar-3.webp",
+        src: "https://images.unsplash.com/photo-1504257432389-52343af06ae3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=200&h=200&q=80",
         alt: "user avatar",
       },
       TESTIMONIAL_5_AVATAR: {
-        src: "https://astrolus.netlify.app/images/avatars/avatar-4.webp",
+        src: "https://images.unsplash.com/photo-1554151228-14d9def656e4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=200&h=200&q=80",
         alt: "user avatar",
       },
       TESTIMONIAL_6_AVATAR: {
-        src: "https://astrolus.netlify.app/images/avatars/avatar-2.webp",
+        src: "https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=200&h=200&q=80",
         alt: "user avatar",
       },
     },
   },
+  BLOG: {
+    TEXT: {
+      H1: "Blog",
+      DESCRIPTION: "Stay up to date with company news here.",
+    },
+    LINKS: {},
+    IMAGES: {},
+  },
 };
 export const BASE = config.BASE;
 export const HOME = config.HOME;
+export const BLOG = config.BLOG;

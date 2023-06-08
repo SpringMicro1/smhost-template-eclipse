@@ -2,11 +2,10 @@
 import { getCollection } from "astro:content";
 import { Picture } from "@astrojs/image/components";
 import Layout from "@layouts/Layout.astro";
-import Container from "@components/container.astro";
-import Sectionhead from "@components/sectionhead.astro";
+import Container from "@components/Container.astro";
 import { BLOG } from "config";
 import Heading from "@components/ui/heading.astro";
-const {TEXT} = BLOG;
+const { TEXT } = BLOG;
 
 // Filter blog entries with 'draft: false' & date before current date
 const publishedBlogEntries = await getCollection("blog", ({ data }) => {
@@ -21,12 +20,14 @@ publishedBlogEntries.sort(function (a, b) {
 
 <Layout title="Blog">
   <Container>
-    <Sectionhead>
-      <Fragment slot="title">{TEXT.H1}</Fragment>
-      <Fragment slot="desc">
+    <header class="pt-36">
+      <h1 class="text-gray-900 dark:text-white font-bold text-5xl text-center">
+        {TEXT.H1}
+      </h1>
+      <p class="mt-8 text-gray-700 dark:text-gray-300 text-center">
         {TEXT.DESCRIPTION}
-      </Fragment>
-    </Sectionhead>
+      </p>
+    </header>
     <main class="mt-16">
       <ul class="grid gap-16 max-w-4xl mx-auto">
         {
@@ -52,18 +53,22 @@ publishedBlogEntries.sort(function (a, b) {
                       {blogPostEntry.data.category}
                     </span>
 
-                    <Heading component="h2" class="font-semibold leading-snug tracking-tight mt-1 ">
+                    <Heading
+                      component="h2"
+                      class="font-semibold leading-snug tracking-tight mt-1 text-gray-900 dark:text-white"
+                    >
                       {blogPostEntry.data.title}
                     </Heading>
 
                     <div class="flex gap-2 mt-3">
-                      <span class="text-gray-400">
+                      <span class="text-gray-700 dark:text-gray-300">
                         {blogPostEntry.data.author}
                       </span>
-                      <span class="text-gray-400">• </span>
+                      <span class="text-gray-700 dark:text-gray-300">• </span>
                       <time
-                        class="text-gray-400"
-                        datetime={blogPostEntry.data.publishDate.toISOString()}>
+                        class="text-gray-700 dark:text-gray-300"
+                        datetime={blogPostEntry.data.publishDate.toISOString()}
+                      >
                         {blogPostEntry.data.publishDate.toDateString()}
                       </time>
                     </div>

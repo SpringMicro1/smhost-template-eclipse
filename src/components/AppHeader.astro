@@ -1,6 +1,7 @@
 ---
-import Container from "./container.astro";
+import Container from "./Container.astro";
 import { BASE } from "../config";
+import disabled from "disabled.json";
 const links = [
     {
         to: "/#features",
@@ -18,7 +19,11 @@ const links = [
         to: "/#contact",
         label: "Contact",
     },
-];
+    {
+        label: "Blog",
+        to: "/blog",
+    },
+].filter((page) => !(disabled as string[]).includes(page.to.replace("#", "")));
 ---
 
 <script>
