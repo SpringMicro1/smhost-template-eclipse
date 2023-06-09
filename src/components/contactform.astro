@@ -23,7 +23,7 @@ if (!import.meta.env.PUBLIC_IN_CONTAINER) {
     ? ""
     : `${import.meta.env.PUBLIC_FORMS_API_URL}/v1/forms/contact/${
         import.meta.env.PUBLIC_CONTACT_FORM_ID
-      }/submit?callback-url=${import.meta.env.PUBLIC_URL}/contact`}
+      }/submit?callback-url=${import.meta.env.PUBLIC_URL}/#contact`}
   method={import.meta.env.PUBLIC_IN_CONTAINER ? "" : "POST"}
 >
   <div
@@ -80,7 +80,7 @@ if (!import.meta.env.PUBLIC_IN_CONTAINER) {
     import.meta.env.PUBLIC_IN_CONTAINER ? (
       <Button
         type="button"
-        onclick="(() => {alert('This is a demo, the form was not submitted anywhere.'); window.location.href = '/contact/?success=true'})();"
+        onclick="(() => {alert('This is a demo, the form was not submitted anywhere.'); window.location.href = '/?success=true#contact'})();"
         size="lg"
         block
         class="disabled:text-gray-400"
@@ -119,6 +119,6 @@ if (params["success"] == "true") {
     .forEach((el) => (el.disabled = true));
   const result = document.querySelector(`#result`);
   result.classList.remove("hidden");
-    result.innerHTML = "Message received!";
-  }
+  result.innerHTML = "Message received!";
+}
 </script>

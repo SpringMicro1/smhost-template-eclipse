@@ -20,7 +20,6 @@ const config = {
     LINK_PATREON: "https://www.patreon.com/account",
     LINK_INSTAGRAM: "https://www.instagram.com/account",
     MISSION_STATEMENT: "Changing the world with our generic contributions.",
-    COPYRIGHT_OWNER: "SpringMicroHost",
   },
   HOME: {
     TEXT: {
